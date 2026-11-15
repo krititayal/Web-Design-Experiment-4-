@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      Small Data, Better Questions | Field Notes
+    </title>
+    <meta name="description" content="A student’s field note on asking clearer questions before working with data.">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip" href="#main">
+      Skip to article
+    </a>
+    <header class="site-head">
+      <a class="wordmark" id="top" href="#top">
+        FIELD NOTES
+        <span>
+          — STUDENT JOURNAL
+        </span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#article">
+          Journal
+        </a>
+        <a href="#about">
+          About
+        </a>
+      </nav>
+    </header>
+    <main id="main">
+      <article id="article">
+        <header class="article-head">
+          <p class="category">
+            LEARNING TO THINK WITH DATA
+          </p>
+          <h1>
+            Ask a question before making a chart
+          </h1>
+          <p class="dek">
+            A clear question helps me decide what data to check and what chart to make.
+          </p>
+          <p class="byline">
+            By Kriti Tayal ·
+            <time datetime="2026-10-11">
+              October 11, 2026
+            </time>
+          </p>
+          <div class="cover" role="img" aria-label="Abstract green and sand-coloured bars suggesting a chart in progress">
+            <small>
+              NOTES ON PROCESS · 01
+            </small>
+          </div>
+        </header>
+        <div class="article-body">
+          <p class="lead">
+            When I open a spreadsheet, I might want to make a chart right away. First, I should decide what I want to learn. A chart is more useful when it answers a clear question.
+          </p>
+          <h2>
+            Start with a question
+          </h2>
+          <p>
+            Suppose a campus club had fewer students at its last two events. The club can compare event times, topics or when the events were announced. These are questions it can check with its information.
+          </p>
+          <p>
+            If the club only has the number of students who came, it can describe the change. It cannot be sure why the change happened. More information would be needed to explain the reason.
+          </p>
+          <blockquote>
+            Use the information you have, and be clear about what it cannot tell you.
+          </blockquote>
+          <h2>
+            Make the data easier to read
+          </h2>
+          <p>
+            Before using the data, read the column names and check a few rows. Look for missing values or dates that do not look right. This can help catch mistakes early.
+          </p>
+          <h2>
+            Explain the chart
+          </h2>
+          <p>
+            Give the chart a clear title and show what the numbers mean. If some information is missing, mention it so the reader knows how to understand the chart.
+          </p>
+          <p>
+            These checks are useful in small class projects too. They help me make charts that are easier to understand and explain.
+          </p>
+          <p class="tags">
+            STUDENT NOTES · DATA PRACTICE · 4 MIN READ
+          </p>
+        </div>
+      </article>
+      <aside id="about">
+        <span>
+          FN
+        </span>
+        <h2>
+          Field Notes
+        </h2>
+        <p>
+          A student journal about learning to work carefully with data and the web.
+        </p>
+        <a href="../week-2-portfolio/index.html">
+          More about Kriti
+        </a>
+      </aside>
+    </main>
+    <footer>
+      <span>
+        © 2026 Field Notes · A student project
+      </span>
+      <a href="#top">
+        Return to top ↑
+      </a>
+    </footer>
+  </body>
+</html>
