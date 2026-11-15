@@ -1,0 +1,184 @@
+/* Set the main font and page colors. */
+body {
+  margin: 0;
+  background: #d9efff;
+  color: #28332d;
+  font-family: Georgia, serif;
+  line-height: 1.7;
+}
+
+a:focus {
+  outline: 3px solid #c06b48;
+}
+
+.skip {
+  position: absolute;
+  top: -50px;
+  left: 10px;
+  padding: 8px;
+  background: #263b30;
+  color: white;
+}
+
+.skip:focus {
+  top: 10px;
+}
+
+.site-head,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 5%;
+  border-bottom: 1px solid #deded6;
+  font-family: Arial, sans-serif;
+  background: #edf7ff;
+}
+
+.wordmark {
+  color: #374c40;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.site-head nav {
+  display: flex;
+  gap: 18px;
+}
+
+.site-head nav a,
+footer a {
+  color: #677067;
+  font-size: 13px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 35px;
+  max-width: 950px;
+  margin: 45px auto;
+  padding: 0 20px;
+}
+
+.article-head {
+  text-align: center;
+}
+
+.category,
+.byline {
+  color: #738274;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+.article-head h1 {
+  font-size: 42px;
+}
+
+.dek {
+  color: #73786f;
+  font-size: 18px;
+}
+
+.cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  height: 210px;
+  background: #c6e4f8;
+
+}
+.cover i:nth-child(3) { height: 105px; background: #b77b5d; }
+
+.cover small {
+  align-self: flex-end;
+  margin: 0 10px 10px 0;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+}
+
+.article-body {
+  max-width: 620px;
+  margin: 30px auto;
+  padding: 16px;
+  background: #edf7ff;
+  border: 1px solid #d6e7f2;
+
+
+  color: #50584f;
+  font-size: 16px;
+}
+
+.article-body h2 {
+  margin-top: 28px;
+  color: #293c30;
+  font-size: 24px;
+}
+
+blockquote {
+  padding-left: 16px;
+  border-left: 3px solid #c27a56;
+  color: #647365;
+}
+
+.tags,
+aside {
+  font-family: Arial, sans-serif;
+}
+
+.tags {
+  color: #858b82;
+  font-size: 12px;
+}
+
+aside {
+  margin-top: 20px;
+  padding: 16px;
+  background: #edf7ff;
+  border: 1px solid #d6e7f2;
+
+  color: #798078;
+}
+
+aside a {
+  color: #496251;
+}
+
+aside a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  border-top: 1px solid #deded6;
+  border-bottom: 0;
+  color: #858b82;
+  font-size: 12px;
+}
+
+@media (max-width: 700px) {
+  main {
+    display: block;
+  }
+
+  aside {
+    margin-top: 30px;
+  }
+
+  .article-head h1 {
+    font-size: 34px;
+  }
+
+  .site-head {
+    padding: 14px 18px;
+  }
+}
+
+
+/* Simple shared finish: light blue pages, clear text and plain borders. */
+body { background: #d9efff; color: #263746; }
+main, .app, .shell, .article-body, aside, article, .post { background-color: #eaf6ff; }
+button, .button { background-color: #3676a5; color: #fff; }
+input, button { font: inherit; }
+button { cursor: pointer; }
